@@ -1,0 +1,147 @@
+html {
+    background-color:#C6DDF0;
+}
+a {
+    color: #74C171;
+}
+main.wrapper {
+    overflow:auto;
+}
+
+h1 a {
+    text-decoration: none;
+    color:#8ACB88;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 a:hover {
+    color:#8ACB88;
+}
+
+.logo {
+    color:red;
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+/* welcome page style begin */
+h2.pageID {
+    color: #8ACB88;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3em;
+}
+
+section.welcome p {
+    color:lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.welcome ul {
+    color:lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer styles begin */
+footer {
+	clear:both;
+}
+/* footer styles end  */
+
+
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+    main.wrapper {
+        width:80%;
+        margin:auto;
+    }
+    
+    img.desktop {
+        float:right;
+        width: 300px;
+        height: auto;
+    }
+    
+    img.tablet, img.phone {
+        display:none;
+    }  
+   
+     /* Change background color of navigation on selected page */
+     ul.topnav li a.selected {
+        background-color: #DFECF6;
+        color:#ccc;
+    }
+ }
+ 
+ 
+ /* TABLET */
+ @media all and (min-width:737px) and (max-width:1399px) {
+     
+    img.tablet {
+        float:left;
+        width: 300px;
+        height: auto;
+    }
+     
+    img.desktop, img.phone {
+        display:none;
+    }  
+     
+    section.welcome p {
+        width:50%;
+        clear:left;
+        display: inline-block;
+    }
+
+     /* Change background color of navigation on selected page */
+     ul.topnav li a.selected {
+        background-color: #DFECF6;
+        color:#ccc;
+    }
+ }
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+        display: block;
+       	width:60%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    img.tablet, img.desktop {
+       	display:none;
+    }  
+
+    section.welcome p {
+        display: block;
+        width: 75%;
+        margin: auto;
+
+    }
+    h2.pageID {
+        text-align: center;
+    }
+
+}
