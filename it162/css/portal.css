@@ -78,7 +78,7 @@ footer {
     
     img.desktop {
         float:right;
-        width: 300px;
+        width: 200px;
         height: auto;
     }
     
@@ -99,14 +99,17 @@ footer {
      
     img.tablet {
         float:left;
-        width: 300px;
+        width: 200px;
         height: auto;
     }
      
     img.desktop, img.phone {
         display:none;
     }  
-     
+
+    h2.pageID {
+         margin-left: 200px;
+    }
     section.welcome p {
         width:50%;
         clear:left;

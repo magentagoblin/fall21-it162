@@ -41,4 +41,23 @@ legend {
   border-right: 1px solid #ccc;
 }
 
+.contact-photo {
+  float:left;
+  width: 200px;
+  height: auto;
+  }
+
+form {
+  clear:left;
+  display:inline-block;
+  }
+
+@media all and (max-width:736px) {
+  .contact-photo {
+    display:none;
+  }
+  form {
+    display: inline;
+  }
+}
 /* end reCAPTCHA styles */

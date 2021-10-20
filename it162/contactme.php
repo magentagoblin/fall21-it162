@@ -1,7 +1,7 @@
 <?php include "includes/header.php";?>
 
-    <h2 class="pageID">Contact Me</h2>
-
+    <img class="contact-photo" src="images/tablet.png" alt="Drawing of a person holding a carrot like an umbrella by Katy."/>
+    <!-- <h2 class="pageID">Contact Me</h2> -->
     <?php
         /*
          * Below are 2 different forms to be re-used       

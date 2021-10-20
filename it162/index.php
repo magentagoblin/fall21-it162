@@ -4,7 +4,7 @@
     <img src="images/tablet.png" class="tablet" alt="Drawing of a person holding a carrot like an umbrella by Katy." />
     <img src="images/phone.png" class="phone" alt="Drawing of a person sun-bathing in a grass field by Katy." />
     
-    <h2 class="pageID">Welcome</h2>
+    <!-- <h2 class="pageID">Welcome</h2> -->
     
     <p>I'm a 22 year old human and live in Seattle, WA with my cat, Panda. I've been out of work during the pandemic, but before I worked odd jobs including working at a thrift store, as a dishwasher, a barista, and even in shipping/packaging once. Despite the thrill of styrofome packing peanuts, I am excited for the prospect of future jobs that involve web design!</p>
 

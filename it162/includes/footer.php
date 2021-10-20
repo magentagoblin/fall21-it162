@@ -1,6 +1,6 @@
 <!-- footer starts here -->
 <footer>
-    <p><small>&copy; 2020-<?=date("Y")?> by 
+    <p><small>&copy; 2020-<?=date('Y')?> by 
         <a href="contact.php">Katy Baker</a>, All Rights Reserved ~ 
         <a id="html-checker" href="#">Check HTML</a> ~ 
         <a href="https://jigsaw.w3.org/css-validator/check?uri=referer">Check CSS</a></small>
