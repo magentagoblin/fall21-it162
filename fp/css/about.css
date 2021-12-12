@@ -1,0 +1,44 @@
+.about-grid {
+    display:grid;
+    grid-template-columns: 50% auto;
+}
+
+.about-bunni {
+    padding: 10px;
+    justify-content: center;
+}
+.about-bunni img {
+    width: 40%;
+    margin-left: 5%;
+}
+
+p#about {
+    font-size: 1em;
+    background-color: #DAF7A6;
+    color:plum;
+    font-style: italic;
+}
+
+.contact-form {
+    margin-left: 1em;
+}
+.contact-form h3 {
+    font-size: 1.5em;
+    color:plum;
+}
+
+
+/* PHONE */
+@media all and (max-width:640px) {
+    .about-grid {
+        display: block;
+    }
+    .about-bunni {
+        width: 90%;
+        margin-bottom: 1em;
+    }
+    .contact-form {
+        width: 90%;
+        margin-bottom: 2em;
+    }
+}    

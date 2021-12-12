@@ -1,0 +1,103 @@
+.wear-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+
+}
+
+.wear-item img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: cornsilk;
+}
+.wear-item p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.wear-item a {
+    text-decoration: none;
+}
+
+
+/* product details page styles below*/
+
+
+div.product-detail-grid {
+    display:grid;
+    grid-template-columns: 400px auto;
+}
+
+img.product-image {
+    width: auto;
+    height: 300px;
+    margin: auto auto 10px auto;
+}
+
+button.product-button {
+    background-color: plum;
+}
+button.display-left {
+    float: left;
+}
+button.display-right {
+    float: right;
+}
+
+.product-detail-container {
+    width: 80%;
+    padding: 10px;
+    margin-left: 2em;
+    margin-top:1em;
+}
+
+#product-name {
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#product-price {
+    color: plum;
+    font-size: 1em;
+}
+
+#product-detail {
+    color: slategray;
+    /* font-style: italic; */
+}
+
+/* TABLET */
+@media all and (min-width:641px) and (max-width:1007px) {
+    .wear-grid {
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:640px) {
+    .wear-grid {
+        display: block;
+        margin-top: 1em;
+    }
+    .wear-item {
+        width:90%;
+        margin: 0px auto 1em auto;
+    }
+
+    div.product-detail-grid {
+        display: block;
+    }
+    div.product-slides {
+        margin: 1em 1em 1em 1em;
+        overflow: auto;
+    }
+    div.product-detail-container {
+        width: 90%;
+
+    }
+}
